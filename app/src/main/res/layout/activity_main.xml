@@ -36,7 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="52dp"
         android:text="ชื่อ :"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold"
@@ -54,7 +54,7 @@
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintHorizontal_bias="0.654"
         app:layout_constraintStart_toEndOf="@+id/textView2" />
 
     <TextView
@@ -62,7 +62,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:text="นานสกุล"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold"
@@ -80,7 +80,7 @@
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintHorizontal_bias="0.542"
         app:layout_constraintStart_toEndOf="@+id/textView6" />
 
     <TextView
@@ -88,7 +88,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:text="รหัส"
         android:textColor="@color/colorPrimaryDark"
         android:textStyle="bold"
@@ -106,7 +106,21 @@
         android:inputType="textPersonName"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.661"
+        app:layout_constraintHorizontal_bias="0.657"
         app:layout_constraintStart_toEndOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="388dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="SOBMIT"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        app:layout_constraintVertical_bias="1.0" />
 
 </android.support.constraint.ConstraintLayout>
